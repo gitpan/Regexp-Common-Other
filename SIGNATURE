@@ -1,0 +1,59 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 842745cb706f8f2126506f544492f7a80dbe29b3 COPYING
+SHA1 0e273650396938dc04fa0b8d32dbcd639dc7b217 Changes
+SHA1 ecb478b381282693f8dce7eaf927ba0baa403bf8 MANIFEST
+SHA1 b758f740af57256154bbf4e1f8a760a1b9f9dfe1 MANIFEST.SKIP
+SHA1 1d13b6b779740521e5132325e22d8c00dbed7ce4 META.yml
+SHA1 db586a6fee2b86052cd09d61728842cd994ea299 Makefile.PL
+SHA1 f4021707a1a4162b110d2830622688c48502957d debian/changelog
+SHA1 ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4 debian/compat
+SHA1 e26467c678511529721f2627a332fd67dbecac89 debian/control
+SHA1 6407410d04d1a17b3bfd78f673e39ab1dfa9d202 debian/copyright
+SHA1 be980a954cb0d075c06df4e40f0a8e8cbf481e76 debian/rules
+SHA1 61652cd1568dcf2614df833eba241755eee34e89 debian/source/format
+SHA1 da89bf661f610c13758407767f25b442f9e7eae9 debian/watch
+SHA1 44e57530d020955ecf368f4eb37db85bbb9473b5 devel/regexp-emacs.pl
+SHA1 3224682f5db538652d8200850b60c38585b95c92 lib/Regexp/Common/ANSIescape.pm
+SHA1 81b98d0abf1a46c9148b3ed3c115061a8ba3081f lib/Regexp/Common/Emacs.pm
+SHA1 47381ea630e527d9d3ebb6860711d5074f48b780 t/ANSIescape.t
+SHA1 2fbc15a7869fbb75b53b681392e2c9116c49d5e4 t/Emacs.t
+SHA1 3855de075da37f5bc4e6a5534b2f00cc14872a98 t/MyTestHelpers.pm
+SHA1 811028548aa4b360b5086d1af3150f9dde348aa6 xt/0-META-read.t
+SHA1 c9e7a47e1f397eb5f46d7e4ef21754d9df76e36e xt/0-Test-ConsistentVersion.t
+SHA1 d9e7f38a8dcfdb76c56951e4214be8eeda2e2289 xt/0-Test-DistManifest.t
+SHA1 9496e4a2a2734c7093ab6961900dd7a55800976e xt/0-Test-Pod.t
+SHA1 083242d959c1a9242c874982e4585872a95bec93 xt/0-Test-Synopsis.t
+SHA1 ec454b1b524d2d0b35e5a7d8292ad13d82becab5 xt/0-Test-YAML-Meta.t
+SHA1 bdc59bfb29089f4c801a4282c0c3498f9a7982e5 xt/0-examples-xrefs.t
+SHA1 2fb2ce60ce5c740d1eb7e3b55a96f3ccb84d38c3 xt/0-file-is-part-of.t
+SHA1 aeb6f41dfae96d04459448f6c3e3dee44691e722 xt/0-no-debug-left-on.t
+SHA1 84a47c1d71fd58797a2754030998dfb673b62811 xtools/my-check-copyright-years.sh
+SHA1 bfb75ffb7a834c345288e01f561b12695f191d12 xtools/my-check-file-part-of.sh
+SHA1 1f28ea8151b0f8554e5ab4e5bbcf1c5371f788eb xtools/my-check-spelling.sh
+SHA1 59164eaeb61442a799e88fbd2cad0b503588da32 xtools/my-deb.sh
+SHA1 2db0a23176de55a8ee8f1643f239aeaa2bcf4fa1 xtools/my-diff-prev.sh
+SHA1 e4a15f9b4bcf1d087de2d9ed8e87bf92b0469a6c xtools/my-manifest.sh
+SHA1 4db9c30b1fc96b04a794218ca19561b368f59679 xtools/my-pc.sh
+SHA1 7b1e948c88915689b3782d872ef9b92a2912c593 xtools/my-tags.sh
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iD8DBQFQw6DFLFMCIV9q3ToRAuktAJ0UNYO47uzHgVDuTmQHgB9yKq5k6ACfeBJ5
+dAMNZ2I/ivzhUG8HgXU6rUc=
+=O6sM
+-----END PGP SIGNATURE-----
